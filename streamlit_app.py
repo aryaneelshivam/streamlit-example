@@ -118,9 +118,7 @@ def main():
                        marker=dict(color='green', size=8)),
             go.Scatter(x=stock_data.index, y=stock_data['Sell_Signal_price'], mode='markers', name='Sell SMA',
                        marker=dict(color='red', size=8)),
-            go.Scatter(x=stock_data.index, y=stock_data['Buy_Signal_priceEMA'], mode='markers', name='Buy E
-
-MA',
+            go.Scatter(x=stock_data.index, y=stock_data['Buy_Signal_priceEMA'], mode='markers', name='Buy EMA',
                        marker=dict(color='black', size=8)),
             go.Scatter(x=stock_data.index, y=stock_data['Sell_Signal_priceEMA'], mode='markers', name='Sell EMA',
                        marker=dict(color='purple', size=8)),
